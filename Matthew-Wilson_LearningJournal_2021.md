@@ -8,4 +8,4 @@ Created a 2D character controller. Encountered small issue where player would no
 
 Inital plan was to create a 2D pathfinding module. Guides on how to do this on the scale I wanted were all based upon using the A* pathfinding package. As I didn't want my package to rely on an existing one, I decided to switch to a more basic enemy patrol script for this package.
 
-Issue with making the object move correctly. The raycast that is being used to detect the ground keeps triggering for seemingly no reason.
+Issue with making the object move correctly. The raycast that is being used to detect the ground keeps failing to trigger for seemingly no reason. After triple checking everything I noticed that I had left the basic box I was using as a place holder with a 3D box collider instead of a 2D one. As the raycast was looking for 2D, it was not detecting the box. I swapped the 3D collider for a 2D one and this fixed the issue.
