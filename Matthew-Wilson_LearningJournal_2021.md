@@ -13,3 +13,7 @@ Issue with making the object move correctly. The raycast that is being used to d
 ### 02/03/2021
 
 Created a cel shader. Had a small issue where there were not as many tones showing up as expected. This turned out to caused by the test material being too bright for the tones to show up correctly. Adding customisation options to the shader allowed this to be corrected.
+
+## 09/03/2021
+
+Created a pickup system. This was similar to one I made for a previous project. The only difficulty was working out how to translate it to be more modular and reusable. Otherwise no issues were enountered
