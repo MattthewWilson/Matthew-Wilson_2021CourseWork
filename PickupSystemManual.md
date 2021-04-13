@@ -11,3 +11,5 @@ The script should be attached to an empty gameObject. The prefab is an empty gam
 The Pickup script attaches to the pickup. When an object with the "player" tag collides with the pickup it will trigger. Upon triggering it will change the value of the pickupCount variable in the PickupSystem script by the number defined in the countChange variable.
 
 The prefab contains a basic object with the script attached to it. The model can be swapped for one of your choosing and then the prefab reused as needed.
+
+Also note that the example scene does not inclued a means of collecting the pickup, but does show how to correctly connect the script to the UI.
