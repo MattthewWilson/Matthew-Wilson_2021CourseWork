@@ -1,4 +1,4 @@
-# Pickup system user guide
+# Pickup System user guide
 
 ## PickupSystem script and prefab
 
