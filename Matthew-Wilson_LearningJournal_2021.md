@@ -17,3 +17,7 @@ Created a cel shader. Had a small issue where there were not as many tones showi
 ## 09/03/2021
 
 Created a pickup system. This was similar to one I made for a previous project. The only difficulty was working out how to translate it to be more modular and reusable. Otherwise no issues were enountered
+
+## 13/04/2021
+
+Encountered an issue while working on the game using the combined packages. The pickups were not detecting collision with the player. After some research I determined that the problem was a result of me making my project in 2D, while the package was made in 3D. Adding `2D` to the end of `OnTriggerEnter` and `Collision` fixed the issue.
